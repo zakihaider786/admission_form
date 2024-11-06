@@ -1,0 +1,225 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Home Section */
+.home-section {
+    background-color: #2196f3;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.home-section .cta-button {
+    background-color: #ff9800;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Courses Section */
+.courses-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.courses-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 10px;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.course-item h3 {
+    font-size: 1.8rem;
+}
+
+.course-item p {
+    font-size: 1rem;
+}
+
+/* Admission Form Section */
+.admission-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    display: none; /* Initially hidden */
+}
+
+.admission-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.admission-section form {
+    display: inline-block;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.admission-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.admission-section input, 
+.admission-section select, 
+.admission-section textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.admission-section .submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.admission-section .submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Loader Styles */
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Form Styles */
+.admission-section form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admission-section form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.admission-section form input,
+.admission-section form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.admission-section form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.admission-section form button:hover {
+    background-color: #2980b9;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
